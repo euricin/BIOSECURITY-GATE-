@@ -34,6 +34,27 @@ st.markdown("""
 """)
 
 st.divider()
+st.divider()
+
+# Paste the explanation right here:
+with st.expander("📖 About Computational Biosecurity & Screening"):
+    st.markdown("""
+    ### Why Biosecurity Screening Matters
+    As gene synthesis and biotechnology become more accessible, ensuring safety is paramount. 
+    DNA synthesis providers and regulatory frameworks require screening protocols to detect:
+    - **Regulated Pathogens & Toxins:** Preventing the accidental or intentional creation of high-consequence agents.
+    - **Sequence-Based Threats:** Translating raw nucleotide inputs across multiple reading frames (6-frame translation) to catch hidden or fragmented threat motifs.
+    
+    ### How This Tool Works
+    1. **Translation Logic:** Converts inputted DNA sequences into amino acid sequences across all 6 reading frames.
+    2. **Motif Matching:** Scans the translated peptides against known high-risk signatures or compliance databases.
+    3. **Automated Flagging:** Flags potential matches to prompt human review before any downstream application.
+    """)
+
+st.divider()
+
+# --- System Metrics ---
+
 
 # --- System Metrics ---
 st.markdown("#### 📊 System Metrics")
