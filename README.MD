@@ -1,18 +1,32 @@
-# 🛡️ Global Youth Biosecurity Taskforce: Autonomous API-Level Screening Firewall
+# 🧬 Biosecurity Compliance Screening Engine
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](YOUR_STREAMLIT_URL_HERE)
-[![Python 3.9+](https://img.shields.io/badge/python-3.9%2B-blue.svg)](https://www.python.org/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+> A lightweight computational compliance tool designed to scan DNA sequences for regulated pathogen motifs using robust translation and matching logic.
 
-## 🎯 Overview
-An enterprise-grade, open-access biosecurity compliance gateway designed to mitigate digital-to-physical security vulnerabilities in cloud-based synthetic DNA ordering platforms. The system executes high-speed **6-frame translation and frame-shift analysis**, screening nucleotide sequences against high-consequence biological threat signatures.
+---
 
-## 🛠️ Core Features
-* **6-Frame Translation Engine:** Powered by Biopython, evaluates forward and reverse-complement strands across all reading frames.
-* **Dynamic Risk Scoring:** Algorithmic risk weighting with real-time progress indicators.
-* **Audit Trail Generation:** Exports verifiable JSON compliance certificates for oversight bodies.
-* **Threat Database Transparency:** Built-in modular inspection of regulated pathogen and toxin motifs.
+## 🌟 Highlights
+* **Accurate Translation Engine:** Executes 6-frame translation logic to catch sequence motifs efficiently.
+* **Zero-Cost Architecture:** Built entirely on open-source tools (Python, Biopython, Streamlit).
+* **Policy-Ready Design:** Bridges the gap between raw data input and real-world biosecurity compliance standards.
 
-## 🚀 Live Demonstration
-Access the live production environment here: [Global Youth Biosecurity Taskforce Portal](YOUR_STREAMLIT_URL_HERE)
+---
 
+## 🔍 The Problem & Motivation
+Traditional DNA screening can miss fragmented or high-risk sequences. This project explores how an accessible computational layer can identify regulated threat motifs across reading frames before synthesis occurs.
+
+---
+
+## 🛠️ Tech Stack
+* **Language:** Python
+* **Library:** Biopython (for sequence handling and translation)
+* **Interface:** Streamlit (for rapid web-app deployment)
+
+---
+
+## 🚀 How to Run Locally
+
+To run this application locally on your machine, follow these simple steps:
+
+1. Clone the repository:
+   ```bash
+   git clone [https://github.com/your-username/BIOSECURITY.git](https://github.com/your-username/BIOSECURITY.git)
