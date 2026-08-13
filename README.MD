@@ -1,4 +1,6 @@
 # 🧬 Biosecurity Compliance Screening Engine
+🔗 **Live Demo:** [View App Here](https://ars3apb7shtgifgkxocmnf.streamlit.app/)
+
 
 > A lightweight computational compliance tool designed to scan DNA sequences for regulated pathogen motifs using robust translation and matching logic.
 
